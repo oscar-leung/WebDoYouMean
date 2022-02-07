@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Example Form</title>
+
+        <!-- The link element allows a CSS file to be attached to this HTML file. -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <style>
+            /* This is where your CSS Code goes. */
+        </style>
+    </head>
+
+    <body>
+        <!-- Inline Styles is CSS code that goes inside of the Element it affects. -->
+        <h2 style="">Sign Up for<br />Free Something</h2>
+
+        <form>
+            <!-- for attribute links to input-->
+            <!-- id attribute identifies that input -->
+            <label for="fname">First Name:</label>
+            <input placeholder="John" id="fname" type="text" />
+            <br />
+            <label for="lname">Last Name:</label>
+            <input placeholder="Doe" id="lname" type="text" />
+            <br />
+           
+            <label for="question1">Why do you want to go to our college?</label>
+            <br />
+            <textarea id="question1"></textarea>
+            <br />
+
+            <label for="start-college">Do you want to go to college now?</label>
+            <select id="start-college">
+                <option>-- Choose an Option --</option>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+
+            <input type="reset" />
+            <input type="submit" />
+        </form>
+        
+        <!-- This button doesn't do anything as it needs JavaScript. -->
+        <button>Close Window</button>
+    </body>
+</html>

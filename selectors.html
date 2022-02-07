@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        h1 {
+            color: purple;
+        }
+        
+        #first-title {
+            color: tomato;
+        }
+        /* It has to have a div somewhere down the line */
+        /* worth 2 points */
+        
+        div p {
+            background-color: peru;
+        }
+        /* 101 pts */
+        
+        #main-content p {
+            background-color: lightblue;
+        }
+        
+        #main-content p.odd {
+            background-color: salmon;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="first-title">Website Title</h1>
+
+    <div>
+        <p>This is up there!</p>
+    </div>
+
+    <div>
+        <p class="odd">This is up there!</p>
+    </div>
+
+    <div id="main-content">
+        <p class="odd">1.my text</p>
+        <p>1.my text</p>
+        <p class="odd">1.my text</p>
+        <p>1.my text</p>
+        <p class="odd">1.my text</p>
+    </div>
+
+    <div>
+        <p>2.my text</p>
+    </div>
+</body>
+
+</html>
