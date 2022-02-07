@@ -1,0 +1,104 @@
+/* Given Styling for tables */
+table,
+td,
+th {
+  border: solid 1px rgb(0, 130, 216);
+  border-collapse: collapse;
+  text-align: center;
+  width: 500px;
+}
+
+/* Number of Html Elements Avaible to apply to CSS
+h1 - 1x
+h2 - 2x
+p - 2x
+a - 2x
+q - 1x
+ul - 1x
+ol - 1x 
+li - 6x
+blockquote - 1x
+table - 1x
+caption - 1x
+tr - 1x
+th - 1x
+td - 4x
+img - 2x
+Total tags = 27
+*/
+body {
+  background-image: linear-gradient(green, pink);
+  font-family: Arial, Helvetica, sans-serif;
+  color: crimson;
+}
+
+h1 {
+  color: green;
+  margin: 100px;
+  padding: 100px;
+  border: 10px solid greenyellow;
+  text-align: center;
+  background-color: #50c878;
+}
+
+h2#head1 {
+  color: rgb(187, 79, 97);
+  text-align: center;
+  border-bottom: 5px dotted greenyellow;
+  font-size: 36px;
+}
+
+.paragraph {
+  color: lightgreen;
+}
+
+.anchor {
+  cursor: progress;
+}
+
+.portfolio:hover {
+  color: darkred;
+}
+
+img#mushroom {
+  cursor: crosshair;
+}
+
+q#quote {
+  border-bottom: 1px solid rgb(14, 78, 14);
+  opacity: 0.5;
+}
+
+#unordered-list {
+  font-style: italic;
+}
+
+#ordered-list {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+li {
+  text-transform: lowercase;
+  word-spacing: 5px;
+  list-style-type: circle;
+}
+
+blockquote {
+  background: #4caf50;
+  color: rgb(94, 17, 17);
+  padding: 15px;
+  width: 50%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid rgb(66, 15, 15);
+  overflow: scroll;
+}
+
+#caption {
+  text-shadow: #fc0 1px 0 10px;
+}
+
+#table-row-header {
+  height: 100px;
+}

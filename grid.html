@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grids</title>
+    <style>
+        #grid {
+            display: grid;
+            /* grid-template-columns: 600px 100px 300px;
+        grid-template-rows: 400px 200px; */
+            grid-template: 400px 200px / 600px 100px 300px;
+        }
+        
+        #first-item {
+            background-color: orange;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        
+        #second-item {
+            background-color: lightblue;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            color: white;
+            line-height: 1.5em;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            text-align: justify;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="grid">
+        <div id="first-item">
+            <p>
+                Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+        <div id="second-item">
+            <p>
+                sdassdassdassdassdassdassdassdassdassdassdassdassdas-sdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdassdas
+            </p>
+        </div>
+
+        <script>
+            document.getElementById("jobs-search-results__list-item").scrollBy;
+        </script>
+    </div>
+</body>
+
+</html>
