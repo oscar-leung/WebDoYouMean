@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Statements and Comparison/Logical Operators</title>
+</head>
+<body>
+
+    <script>
+
+        100;
+        "Hello";
+        true;
+
+        var myFirstVariable = 500;
+        
+        // If Statement Syntax. Note any code blocks closing curly brace also act as a semicolon.
+        // if () {};
+
+        if (true) {
+            console.log("The condition for this if statement was true!.");
+
+            var firstNumber = 10;
+            var secondNumber = 20;
+            var finalNumber = 30;
+        }
+
+        
+
+        console.log(firstNumber);
+
+        // "Useless" If statements because they will ALWAYS be true/false.
+        if (true) {100;}
+        if (false) {200;}
+
+        var userAge = 15;
+
+        100 == 100; // true
+        50 == 100; // false
+        100 != 100; // false
+        50 != 100; // true
+
+        userAge != 0;
+
+        // List of comparison operators, "Comparitors"
+        // ==
+        // !=
+        // >, <
+        // >=, <=
+
+        // Mathematical Operators
+        // +, -
+        // * = multiply
+        // / = divide
+
+        if (userAge >= 21) {
+            console.log("Congratz, you can drink alcohol.");
+        } else if (userAge < 21) {
+            console.log("Have an Orange Juice drink");
+        } else if (userAge < 0) {
+            console.log("Please type in a valid age number.");
+        } else {
+            console.log("Sorry, something went wrong!");
+        }
+
+        if (userAge >= 40) {
+            // This if statement WILL run regardless of what the if statement on line 51 runs.
+        }
+
+
+        // Logical Operators
+        // and: &&
+        // or: ||
+
+        100 == 100 && 50 == 100; // false
+
+        true && true; // true
+        false && true; // false
+        true && true && true && true; // true
+
+        true || true; // true
+        false || true; // true
+
+        if (userAge > 21 && userAge < 40) {
+            console.log("Congratz, you are in your prime.");
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

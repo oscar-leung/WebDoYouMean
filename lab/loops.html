@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loops</title>
+</head>
+<body>
+
+    <script>
+
+        var isItRaining = true;
+
+        if (isItRaining) {
+        }
+
+        // This is an INFINITE LOOP, which is BAD. This loop would be an infinite loop if we never updated isItRaining variable.
+        while (isItRaining) {
+
+            console.log("Ran the while loop 1 time.");
+
+            isItRaining = false;
+
+        }
+
+
+        // The While loop will run for 10 times and then stop.
+
+        var counter = 0;
+
+        while (counter < 10) {
+            // Everything on the right side of the equal sign, must happen first.
+            counter = counter + 1;
+
+            console.log(counter);
+        }
+
+        // FOR Loop
+
+        for (var counter = 0; counter < 10; counter = counter + 1) {
+            console.log(counter);
+        }
+
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        // How to test if a condition ends up true or false.
+
+        function isItTrue(value) {
+
+            if (value) {
+                console.log("The value" + value + "end up as a TRUE boolean!");
+            } else {
+                console.log("The value" + value + "end up as a FALSE boolean!");
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>
