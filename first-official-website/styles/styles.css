@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Fauna One", serif;
+}
+
+.nav-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+h1 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.image-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.zootopia-logo {
+    border-radius: 100px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid rgb(73, 204, 73);
+}
+
+.orange-tabby-cat {
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+.brown-white-short-coated-puppy {
+    border: 5px solid brown;
+    border-radius: 10px;
+}
+
+.gray-bird-perched {
+    border: 5px solid rgb(47, 61, 60);
+    border-radius: 10px;
+}
+
+.nemo-fish {
+    border: 5px solid rgb(66, 66, 156);
+    border-radius: 10px;
+}
+
+.caption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
